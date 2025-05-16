@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Morgan Wallen Fan Club - Pricing</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Home</a> | <a href="about.html">About</a> |
+      <a href="pricing.html">Pricing</a> | <a href="payment.html">Payment</a> |
+      <a href="support.html">Support</a>
+    </nav>
+
+    <section class="content">
+      <h1>Choose Your Fan Package</h1>
+      <div class="products">
+        <div class="card">
+          <h3>Regular Fan Card</h3>
+          <p>Price: $500</p>
+          <button class="add-cart" data-price="500">Add to Cart</button>
+        </div>
+        <div class="card">
+          <h3>VIP Fan Card</h3>
+          <p>Price: $1100</p>
+          <button class="add-cart" data-price="1100">Add to Cart</button>
+        </div>
+        <div class="card">
+          <h3>Platinum Fan Card</h3>
+          <p>Price: $750</p>
+          <button class="add-cart" data-price="750">Add to Cart</button>
+        </div>
+        <div class="card">
+          <h3>Meet And Greet</h3>
+          <p>Price: $5000</p>
+          <button class="add-cart" data-price="5000">Add to Cart</button>
+        </div>
+      </div>
+      <div class="cart-summary">
+        <p>Cart Total: $<span id="cart-total">0.00</span></p>
+        <button onclick="location.href='payment.html'" class="add-cart">
+          Proceed to Payment
+        </button>
+      </div>
+    </section>
+    <footer>
+      <p>&copy; 2025 Morgan Wallen Fan Club. All rights reserved.</p>
+      <p>
+        <a href="mailto:support@morganwallenfans.com">Email Support</a> |
+        <a href="https://t.me/YourTelegramUsername" target="_blank">Telegram</a>
+        |
+        <a href="#">Privacy Policy</a>
+      </p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

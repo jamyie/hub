@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Morgan Wallen Fan Club - Payment</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="js/scripts.js" />
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Home</a> | <a href="about.html">About</a> |
+      <a href="pricing.html">Pricing</a> | <a href="payment.html">Payment</a> |
+      <a href="support.html">Support</a>
+    </nav>
+
+    <!-- <section class="content">
+      <h1>Payment</h1>
+      <p>
+        Please complete your purchase by sending Bitcoin to the address below.
+        Scan the QR code or use the address manually:
+      </p>
+      <img src="images/bitcoin-qr.png" alt="Bitcoin QR Code" class="qr-code" />
+      <p>
+        Bitcoin Address:
+        <span class="btc-address">bc1qexampleaddress1234567890</span>
+      </p>
+    </section> -->
+    <div class="btc-payment">
+      <h3>Pay with Bitcoin</h3>
+      <p>Send your payment to this address:</p>
+      <code id="btcAddress">13E9Ni36THoytKyKXzpZJV9eeMhSzzfaxi</code>
+      <br /><br />
+      <img
+        src="https://api.qrserver.com/v1/create-qr-code/?data=bitcoin:bc1qexamplebtcaddress123xyz456&size=200x200"
+        alt="Bitcoin QR Code"
+      />
+      <p>
+        <strong>Note:</strong> After sending BTC, please contact support with
+        transaction ID.
+      </p>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 Morgan Wallen Fan Club. All rights reserved.</p>
+      <p>
+        <a href="mailto:support@morganwallenfans.com">Email Support</a> |
+        <a href="https://t.me/YourTelegramUsername" target="_blank">Telegram</a>
+        |
+        <a href="#">Privacy Policy</a>
+      </p>
+    </footer>
+  </body>
+</html>
